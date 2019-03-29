@@ -1,0 +1,12 @@
+# 应用名称
+spring:
+  profiles:
+    active: dev
+# 端口号
+server:
+  port: 8080
+logging:
+  level:
+    com.yutang.platform.manage: debug
+
+

@@ -1,0 +1,16 @@
+document.writeln("<meta charset=\'UTF-8\'>");
+document.writeln("    <title>瑜堂管理平台</title>");
+document.writeln("    <meta name=\'keywords\' content=\'瑜堂\' />");
+document.writeln("    <meta name=\'description\' content=\'瑜堂\' />");
+document.writeln("    <meta name=\'renderer\' content=\'webkit\'>");
+document.writeln("    <meta http-equiv=\'X-UA-Compatible\' content=\'IE=edge,chrome=1\'>");
+document.writeln("    <meta name=\'Author\' content=\'larry\' />");
+document.writeln("    <meta name=\'viewport\' content=\'width=device-width, initial-scale=1, maximum-scale=1\'>");
+document.writeln("    <meta name=\'apple-mobile-web-app-status-bar-style\' content=\'black\'>");
+document.writeln("    <meta name=\'apple-mobile-web-app-capable\' content=\'yes\'>");
+document.writeln("    <meta name=\'format-detection\' content=\'telephone=no\'>");
+document.writeln("    <link rel=\'Shortcut Icon\' href=\'/favicon.ico\' />");
+document.writeln("    <!-- load css -->");
+document.writeln("    <link rel=\'stylesheet\' type=\'text/css\' href=\'/resource/common/frame/layui/css/layui.css\' media=\'all\'>");
+document.writeln("    <link rel=\'stylesheet\' type=\'text/css\' href=\'/resource/common/css/gobal.css\' media=\'all\'>");
+document.writeln("    <link rel=\'stylesheet\' type=\'text/css\' href=\'/resource/css/backstage.css\' media=\'all\'>");

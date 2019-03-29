@@ -1,0 +1,23 @@
+.layui-upload-list > .upload_img {
+	width: 100px;
+	display: inline-block;
+	margin: 10px 0 0 10px;
+	padding: 6px;
+	border: 1px solid #e2e2e2;
+}
+div.upload_img img {
+	max-width: 75px;
+	max-height: 75px;
+	margin-left: 11px;
+}
+.upload_img > div {
+	height: 80px;
+}
+i.layui-icon.myDelete {
+	position: absolute;
+	right: -3px;
+	top: 0px;
+	font-size: 20px;
+	color: red;
+	cursor: pointer;
+}

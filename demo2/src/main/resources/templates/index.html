@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="/js/template/header.js"></script>
+    <link rel="stylesheet" href="/js/sdk/style/main.css">
+    <link rel="stylesheet" href="/js/sdk/style/highlight.css">
+    <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
+</head>
+<body class="">
+<div class="container">
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active" id="demo" aria-labelledby="demo-tab">
+            <div class="row" style="margin: 10px 0 0 10px;">
+                <div class="col-md-12">
+                    <div id="container">
+                        <a class="layui-btn layui-btn-lg" id="pickfiles" href="#" >
+                            <span>选择文件</span>
+                        </a>
+                    </div>
+                </div>
+                <!--<div style="display:none" id="success">
+                    <div class="alert-success">
+                        队列全部文件处理完毕
+                    </div>
+                </div>-->
+                <div class="row">
+                    <table class="layui-table">
+                        <colgroup>
+                            <col width="300">
+                            <col width="200">
+                            <col>
+                        </colgroup>
+                        <thead>
+                        <tr>
+                            <th>文件名称</th>
+                            <th>文件大小</th>
+                            <th>上传详情</th>
+                        </tr>
+                        </thead>
+                        <tbody id="fsUploadProgress">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <a class="layui-btn" style="float: right;margin-right: 10px;" id="confirm" href="#">确定</a>
+    </div>
+</div>
+</body>
+
+<script type="text/javascript" src="/js/template/jquery.min.js"></script>
+<!--引入公共底部部分-->
+<script type="text/javascript" src="/js/template/footer.js"></script>
+
+<script type="text/javascript" src='/js/sdk/js/plupload.full.min.js'></script>
+<script type="text/javascript" src='/js/sdk/js/qiniu.min.js'></script>
+<script type="text/javascript" src='/js/sdk/js/ui.js'></script>
+<script type="text/javascript" src='/js/sdk/js/highlight.js'></script>
+<script type="text/javascript" src='/js/sdk/js/main.js'></script>
+
+</html>

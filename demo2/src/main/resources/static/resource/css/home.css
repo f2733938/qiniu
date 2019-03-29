@@ -1,0 +1,39 @@
+html,body{width: 100%;height: 100%;margin:0;padding:0;background:#f2f2f2;font-family: "微软雅黑";}
+a{text-decoration: none;color:#333}
+p{margin:0;}
+.list1,.list2,.list3{overflow: hidden;padding:10px 3%;width: 94%;}
+.list1 .item{width:13%;overflow: hidden;background: #fff;float: left;padding:20px 2.3%;margin-right:3%;}
+.list1 .last-item {margin-right: 0;}
+.list1 .item div.con{width:60%;float: left;}
+.list1 .item div.con p{margin:5px 0}
+.list1 .item div.con .money{font-size: 20px;color:#666666}
+.list1 .item div.icon{width:50px;height:50px;text-align: center;float: right;margin-top:8px;}
+.list1 .item div.icon img{margin-top:10px;}
+.list2 .list-lf{background:#fff;width:50%;float: left;position: relative;}
+.list2 .list-md{background:#fff;float: left;position: relative;width:25%;margin-left:2.5%;}
+.list2 .lf-tab>p{height: 40px;line-height: 40px;margin:0;background:#fbfbfb;padding:0px 20px;}
+.list2 .list-lf .header,.list2 .list-md .header{position: absolute;right: 10px;top:10px;}
+.list2 .list-lf .header img,.list2 .list-md .header img{width:18px;height:18px;margin:0 5px;}
+.list2 .lf-tab .tab-con{width: 100%;height: 400px;overflow: hidden;padding:0 6%}
+.list2 .lf-tab .item{width: 42%;float:left;text-align: center;margin-top:6%;margin-right:4.8%;}
+.list2 .lf-tab .item a{color:#fff}
+.list2 .lf-tab .item p:nth-child(1){font-size:18px;margin-top:30%}
+.list2 .lf-tab .item p:nth-child(2){font-size:15px;margin-top:10%}
+.list2 .lf-tab .item:nth-child(1){background:#60b8f7}
+.list2 .lf-tab .item:nth-child(2){background:#ce83de}
+.list2 .lf-tab .item:nth-child(3){background:#56da8e}
+.list2 .lf-tab .item:nth-child(4){background:#f76095}
+.list-rt .header p{height: 40px;line-height: 40px;margin: 0;background: #fbfbfb;padding: 0px 20px;}
+.list2 .list-rt{width: 20%;float: right;}
+    .list-rt .md-tab{background:#fff;font-size:14px;padding:10px;height: 380px;position: relative;}
+.list-rt .md-tab p{line-height:24px;margin-bottom:15px;}
+/*.list-rt .md-tab .imgp img{bottom: 10px;right: 10px;}*/
+.list-rt .md-tab  img{bottom: 10px;right: 10px;}
+.list3 table{background:#fff;width: 100%;border:1px solid #f5f5f5;}
+.list3 table .title{background:#5fb87b;color:#333333}
+.list3 table td{height:32px;line-height:32px;padding:0 10px;text-align: center;border-bottom: 1px solid #f0f0f0;font-size: 14px;}
+.list3 table tr:not:hover{background:#fff4e6;}
+.imgp img{width:100%}
+.imgp{overflow-Y: auto; overflow-X:hidden;height:346px}
+.leftimg{margin-left: 30px;    position: absolute;}
+.rightimg{margin-right: 30px;    position: absolute;}
