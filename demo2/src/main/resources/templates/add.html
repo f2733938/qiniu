@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="/js/template/header.js"></script>
+    <!--多选下拉菜单css-->
+    <style>
+        .layui-form-select dl {
+            z-index: 9999;
+        }
+
+        .xm-select-parent .xm-input {
+            width: 110%;
+        }
+
+        .layui-input, .layui-textarea {
+            width: 105%;
+        }
+    </style>
+</head>
+<body class="childrenBody">
+<form class="layui-form" lay-filter="addMenuForm">
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">测试上传</label>
+        <div class="layui-input-block">
+            <input type="button" value="点击上传" id="uploadImg"/>
+            <input type="hidden" value="" name="classImg" id="videoImgUrl">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <img src="" id="videoImage" width="150" height="120" style="display: none">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+            <!--<button type="reset" class="layui-btn layui-btn-primary">重置</button>-->
+        </div>
+    </div>
+    </div>
+</form>
+
+<!--引入公共底部部分-->
+<script type="text/javascript" src="/js/template/footer.js"></script>
+<!--添加菜单逻辑js-->
+<script type="text/javascript" src="/js/classroom/info/add.js"></script>
+<script type="text/javascript" src="/js/template/jquery.min.js"></script>
+</body>
+</html>

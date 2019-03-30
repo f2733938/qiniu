@@ -45,7 +45,7 @@ public class UploadController {
         @RequestMapping(value = "/index")
         public String hello(Model model) {
             model.addAttribute("name", "Dear");
-            return "index";
+            return "add";
         }
 
 

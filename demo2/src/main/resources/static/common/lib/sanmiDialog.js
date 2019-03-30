@@ -109,7 +109,7 @@ layui.define(['layer'], function (exports) {
          * @param params 参数
          */
         showUpload: function (params) {
-            var url = "/upload/index.html";
+            var url = "/index.html";
             if (params != undefined) {
                 /**  上传页面初始化路径*/
                 url = params.url == undefined ? url : params.url;
